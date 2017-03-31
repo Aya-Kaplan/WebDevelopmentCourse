@@ -1,0 +1,122 @@
+body 
+{
+    direction:rtl;
+}
+
+#container{
+    width:960px;
+    margin:0 auto;
+    background-color:pink;
+ }
+
+h1 {
+    color: #167f39;
+    font-family: 'Myriad Hebrew';
+    font-size: 30pt;
+    margin-top:20px;
+    padding:10px;
+    text-align:center;
+    text-shadow: 2px 2px 0 #97ed8a;
+}
+
+#Pticha p{
+    color: #167f39;
+    font-family: 'Myriad Hebrew';
+    font-size: 20pt;
+    text-align:center;
+    text-shadow: 2px 2px 0 #97ed8a;
+}
+
+#Shem{
+    background-color:white;
+    height:300px;
+    width:400px;
+    position:relative;
+    top:50px;
+    bottom:50px;
+    margin:auto;
+    outline: 10px ridge #d9bacb;
+    outline-offset: 1px;
+      }
+
+.Kotarot{
+    padding-top:10px;
+    padding-right:10px;
+    color: #f4a918;
+    font-size:20pt;
+    text-shadow: 2px 2px 0 #535283;
+}
+
+#Shem p{
+    margin-top:10px;
+    margin-right:10px;
+    padding-right:5px;
+
+}
+
+#AyaPhoto{
+    background-image:url("../images/Myphoto2.jpg");
+    width:90px;
+    height:130px;
+    display:inline;
+    margin-top:40px;
+    background-position-x:-5px;
+    float:right;
+}
+
+#Taasuka{
+    background-color: turquoise;
+    height:300px;
+    width:400px;
+    position:relative;
+    top:100px;
+    bottom:50px;
+    margin:auto;
+    outline: 10px ridge #4FFFA7;
+    outline-offset: 1px;
+        
+}
+
+.bold{
+    font-weight:bold;
+
+}
+
+#Haskala{
+
+background-color:purple;
+height:150px;
+width:500px;
+    position:relative;
+    top:150px;
+    bottom:150px;
+    margin:auto;
+    outline: 10px ridge #4FFFA7;
+    outline-offset: 1px;   
+}
+
+#Tachbivim{
+   background-color:purple;
+height:150px;
+width:500px;
+position:relative;
+    top:150px;
+    bottom:50px;
+    margin:auto;
+    outline: 10px ridge #4FFFA7;
+    outline-offset: 1px;
+    }
+
+#face{
+   color:blueviolet;
+
+}
+
+#face:active{
+    color:aqua;
+    hanging-punctuation
+}
+
+#Kesher{
+    font-size: 24pt;
+    }

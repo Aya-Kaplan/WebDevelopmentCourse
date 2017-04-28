@@ -1,0 +1,104 @@
+body {
+    direction: rtl;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url('../images/reka.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.first {
+    font-family: Calibri;
+    color: darkblue;
+    font-size: 16pt;
+}
+
+.second {
+    margin-top: 20px;
+    font-family: Calibri;
+    color: #b5bec2;
+    font-size: 16pt;
+}
+
+.third {
+    margin-top: 10px;
+    margin-right: -5px;
+    font-family: Calibri;
+    color: #ca6666;
+    font-size: 45pt;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #3EA381;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active, a:hover {
+    color:#42ac3b;
+}
+
+#myTable {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+    margin-right: 220px;
+}
+
+.gam {
+    font-family: Calibri;
+    color: #f68733;
+    font-size: 18pt;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.sub {
+    font-family: Calibri;
+    color: #000000;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.img {
+    vertical-align: central;
+}
+
+#formsec {
+    margin-right:30px;
+    margin-top:200px;
+    position:absolute;
+    color:white;
+    background-color:green;
+    border:solid;
+    height:100px;
+    width:850px;
+    
+
+}
+
+form {
+    text-align:center;
+    padding-top:3px;
+    margin:0 auto;
+    position:relative;
+}
+
+#emaill{
+    margin-right:5px;
+
+}

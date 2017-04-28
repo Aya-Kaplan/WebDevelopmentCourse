@@ -1,0 +1,82 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 class="first">מחפשים תואר עם מעוף?</h1> <br />
+            <h1 class="first">פקולטה שהיא קן חמים ונעים?</h1><br />
+            <h1 class="first">רוצים לתפוס שלוש ציפורים במכה?</h1>
+            <h2 class="second">כנראה שמצאתם...</h2>
+            <h3 class="third"><a href="http://www.hit.ac.il/telem/B.A/curriculum/dev-and-mgmt-training" target="_blank">טכנולוגיות למידה </a></h3>
+        </header>
+        <section id="infosec">
+            <table id="myTable">
+                <tr id="tr1">
+                    <td class="gam">גם</td>
+                    <td class="gam">גם</a></td>
+                    <td class="gam">וגם</a></td>
+                </tr>
+                <tr>
+                    <td class="sub">
+                        <a href="http://www.hit.ac.il/telem/B.A/curriculum/dev-and-mgmt-training">הדרכה</a>
+                    </td>
+                    <td class="sub">
+                        <a href="http://www.hit.ac.il/telem/B.A/curriculum/user-experience-design">עיצוב</a>
+                    </td>
+                    <td class="sub">
+                        <a href="http://www.hit.ac.il/telem/B.A/curriculum/dev-and-mgmt-training">טכנולוגיה</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://www.hit.ac.il/telem/B.A/curriculum/dev-and-mgmt-training">
+                            <img src="images/guide.png"
+                    </td>
+                    <td>
+                        <a href="http://www.hit.ac.il/telem/B.A/curriculum/user-experience-design">
+                            <img class="img" src="images/design.jpg"
+                    </td>
+                    <td>
+                        <a href="http://www.hit.ac.il/telem/B.A/curriculum/dev-and-mgmt-training">
+                            <img class="img" src="images/tech.png"
+                    </td>
+                </tr>
+
+        </section>
+        <section id="formsec">
+            מלאו פרטיכם ונציג מטעמינו יחזור אליכם<br />
+            <br />
+            <form>
+                <input type="hidden" id="myEmail" name="name" value="ayag108@gmail.com">
+                <label for="fname">שם מלא:<input type="text" id="namel" placeholder="הכנס שם פרטי ומשפחה" /></label>
+                <label for="male"><input type="radio" id="malel" name="gender" />זכר</label>
+                <label for="female"><input type="radio" id="femalel" name="gender" />נקבה</label><br /><br />
+                <label for="email">אימייל:<input type="text" id="emaill" placeholder="הכנס כתובת אימייל" /></label>
+                <label for="phone">מספר טלפון:<input type="text" id="phonel" placeholder="הכנס מספר טלפון" /></label>
+                <input type="submit" id="send" value="שלח" />
+                <br />
+                <div id="feedback"></div>
+            </form>
+        </section>
+
+
+    </div>
+</body>
+</html>
